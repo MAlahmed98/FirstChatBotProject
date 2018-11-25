@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class MainScreen
+{
+  public satatic void main(String [] args)
+  {
+     Scanner C = new Scanner(Systerm.in);
+  
+  }
+   private static void CreateWindow()
+    {
+	  JFrame ChatWindow = new JFrame("Max The Bot");
+	  ChatWindow.setSize(200, 400);
+	  ChatWindow.setDefaultExitOperation(JFrame.EXIT_ON_CLOSE); 
+     }
+  }
+}
