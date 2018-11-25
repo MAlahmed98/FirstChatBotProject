@@ -1,0 +1,15 @@
+import java.awt.*;
+import javax.swing.*;
+public class chatBotWindow extends JFrame {
+  public chatBotWindow() {
+	  JFrame window = new JFrame();
+	  window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
+	  window.setSize(600, 700);
+	  window.setVisible(true);
+	  window.setTitle("Max The Bot");
+	  window.setBackground(Color.BLACK);
+  }
+  public static void main(String [] args) {
+	  chatBotWindow c = new chatBotWindow();
+  }
+}
