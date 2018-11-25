@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class prototype{
+public static void main(String [] args){
+    Scanner k = new Scanner(System.in);
+    String msg = "";
+    String response = "Hello Human! This is just a simple prototype, by a simple programmer who wants to do great things someday, if you wish to stop me type end, now, what can i do for you?";
+    System.out.println("ChatBot ->" + response);
+    while(msg != "end"){
+      System.out.print("You ->");
+      msg = k.next();
+      if (msg.equalsIgnoreCase(hi)){
+        response = "Hello There!, How can i serve you today?";
+      }
+      else{
+        response = "I did not understand that sir";
+      }
+      System.out.println("ChatBot ->" + response);
+    }
+  }
+}
