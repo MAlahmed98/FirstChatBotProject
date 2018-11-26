@@ -8,11 +8,24 @@ public static void main(String [] args){
     while(msg != "end"){
       System.out.print("You ->");
       msg = k.next();
-      if (msg.equalsIgnoreCase(hi)){
-        response = "Hello There!, How can i serve you today?";
-      }
-      else{
-        response = "I did not understand that sir";
+       switch(msg) {
+          case "hi": response = "Hello there human";
+          break;
+          case "Hi": response = "Hello buddy";
+          break;
+          case "aye": response = "aye homie";
+          break;
+          case "yo": response = "aye whsup";
+          break;
+          case "whats cracking": response = "notihng much, u?";
+          break;
+          case "how are you?": response = "System is fine and working, wbu?";
+          break;
+          case "whatsup?": response = "just processing shit around, u?";
+          break;
+          default : response = "i don't get it!";
+          break;
+          
       }
       System.out.println("ChatBot ->" + response);
     }
