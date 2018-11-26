@@ -1,0 +1,13 @@
+public class response {
+    public response(String GetMsg){
+        String msg = GetMsg;
+        String response;
+        if(msg.contains("hi"))
+            response = "Hey there, how can i help you?";
+        else if(msg.contains("how are you"))
+            response = "I am fine, how about you sir?";
+        else 
+            response = "I don't get it sir, after all i am just a simple program";
+        System.out.println("Max --->" + response);
+    }
+}
